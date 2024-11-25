@@ -1,0 +1,182 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./components/Auth/AuthForm.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.AuthForm_authContainer__cksRa {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.AuthForm_authBox__rYaX3 {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.AuthForm_authBox__rYaX3 h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.AuthForm_inputGroup__okD4b {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.AuthForm_inputGroup__okD4b input {
+  width: 100%;
+  padding: 0.875rem 1.25rem;
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.AuthForm_inputGroup__okD4b input:focus {
+  outline: none;
+  border-color: #000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.AuthForm_submitButton__IhJdg {
+  width: 100%;
+  padding: 0.875rem;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.AuthForm_submitButton__IhJdg:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.AuthForm_switchMode___75HP {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #666;
+  font-size: 0.875rem;
+}
+
+.AuthForm_switchButton__HqMF4 {
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.AuthForm_switchButton__HqMF4:hover {
+  color: #666;
+  text-decoration: none;
+} 
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./styles/Home.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+.Home_main__VkIEL {
+  min-height: 100vh;
+  background-color: #f7d417;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home_container__d256j {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.Home_titleContainer__9BKmw {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.Home_mainTitle__o5VAj {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #000;
+  text-align: center;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.Home_subTitle__cZGIH {
+  font-size: 1.8rem;
+  color: #000;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.Home_logo__IOQAX {
+  margin-bottom: 3rem;
+  transform: scale(1.2);
+  perspective: 1000px;
+}
+
+.Home_grid__AVljO {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  width: 120px;
+  height: 120px;
+  transform-style: preserve-3d;
+  transform: rotateX(10deg);
+  transition: transform 0.3s ease;
+}
+
+.Home_grid__AVljO:hover {
+  transform: rotateX(15deg) rotateY(5deg);
+}
+
+.Home_gridItem__S3qkP {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background-color: #e74c3c;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.Home_gridItem__S3qkP:hover {
+  transform: translateZ(10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.Home_gridItem__S3qkP:nth-child(3) {
+  background-color: white;
+}
+
+.Home_gridItem__S3qkP:nth-child(4),
+.Home_gridItem__S3qkP:nth-child(6) {
+  background-color: #3498db;
+}
+
+.Home_gridItem__S3qkP:nth-child(5),
+.Home_gridItem__S3qkP:nth-child(9) {
+  background-color: #2ecc71;
+} 
